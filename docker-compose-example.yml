@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  soundness:
+    container_name: ubuntu
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always

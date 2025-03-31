@@ -1,11 +1,190 @@
-version: '3.9'
-
+version: '3.8'
 services:
-  soundness:
-    container_name: ubuntu
-    build:
-      context: ./
-      dockerfile: Dockerfile
+  soundness1:
+    container_name: ubuntu1
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness2:
+    container_name: ubuntu2
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness3:
+    container_name: ubuntu3
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness4:
+    container_name: ubuntu4
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness5:
+    container_name: ubuntu5
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness6:
+    container_name: ubuntu6
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness7:
+    container_name: ubuntu7
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness8:
+    container_name: ubuntu8
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness9:
+    container_name: ubuntu9
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness10:
+    container_name: ubuntu10
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness11:
+    container_name: ubuntu11
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness12:
+    container_name: ubuntu12
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness13:
+    container_name: ubuntu13
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness14:
+    container_name: ubuntu14
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness15:
+    container_name: ubuntu15
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness16:
+    container_name: ubuntu16
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness17:
+    container_name: ubuntu17
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness18:
+    container_name: ubuntu18
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness19:
+    container_name: ubuntu19
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness20:
+    container_name: ubuntu20
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness21:
+    container_name: ubuntu21
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness22:
+    container_name: ubuntu22
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness23:
+    container_name: ubuntu23
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness24:
+    container_name: ubuntu24
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness25:
+    container_name: ubuntu25
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness26:
+    container_name: ubuntu26
+    image: soundness
+    command: tail -f /var/log/lastlog
+    volumes:
+      - ./genkey.sh:/genkey.sh
+    restart: always
+  soundness27:
+    container_name: ubuntu27
+    image: soundness
     command: tail -f /var/log/lastlog
     volumes:
       - ./genkey.sh:/genkey.sh
